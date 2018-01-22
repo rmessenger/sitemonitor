@@ -30,10 +30,10 @@ MatchRE='Status:\s*</td>\s*<td[^>]*>\s*([^<]+)\s*</td>\s*</tr>'
 SiteURL='https://www.halifax.ca/transportation/winter-operations/service-updates'
 
 #File to store whether or not we've informed user of change
-DataFilename='sitemonitor.dat'
+DataFilename='/path/to/sitemonitor.dat'
 
 #File to store log
-LogFilename='sitemonitor.log'
+LogFilename='/path/to/sitemonitor.log'
 
 
 #A function to log messages
