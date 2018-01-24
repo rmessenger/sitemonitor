@@ -9,12 +9,12 @@ specified by a regular expression.
 1. __Prerequisites__: This script requires a linux server with a functioning and configured mail
 server, cron daemon, and python2 or python3.
 
-2. __Clone Repository__:
-```git clone https://github.com/rmessenger/sitemonitor.git```
+2. __Clone Repository__: ```git clone https://github.com/rmessenger/sitemonitor.git```
 
 3. __Configuration__: Open sitemonitor.py in a text editor, and edit the following lines:
 
-```#List of email addresses to notify or send errors to
+```python
+#List of email addresses to notify or send errors to
 NotifyEmails=['email@somesite.com']
 ErrorEmails=['email2@somesite.com']
 
@@ -29,7 +29,8 @@ SiteURL='https://www.halifax.ca/transportation/winter-operations/service-updates
 DataFilename='/path/to/sitemonitor.dat'
 
 #File to store log
-LogFilename='/path/to/sitemonitor.log'```
+LogFilename='/path/to/sitemonitor.log'
+```
 
 4. __Cron Job__: Add a cron job by calling:
 
