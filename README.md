@@ -1,4 +1,4 @@
-# sitemonitor
+# SiteMonitor
 
 This is a simple script to monitor a website for specific changes and
 send an email to a list of addresses containing the specific changes
